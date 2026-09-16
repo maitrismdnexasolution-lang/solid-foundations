@@ -1,15 +1,75 @@
 {
   "source": "lovable-code-archive_6.zip",
   "capabilities": [
-    {"capability":"application code and routes","source":"uploaded archive","outcome":"preserve","status":"ready","next_action":"copy and verify"},
-    {"capability":"visual design and content","source":"uploaded archive","outcome":"preserve exactly","status":"ready","next_action":"copy and compare"},
-    {"capability":"bundled images, fonts, and public files","source":"uploaded archive","outcome":"preserve","status":"ready","next_action":"copy and verify loading"},
-    {"capability":"browser-saved admin settings","source":"localStorage/sessionStorage","outcome":"preserve","status":"ready","next_action":"verify original behavior"},
-    {"capability":"database records","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"external authentication","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"external providers and secrets","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"public endpoints, webhooks, and schedules","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"verification","source":"local preview","outcome":"preserve","status":"pending","next_action":"test desktop, mobile, routes, and interactions"},
-    {"capability":"production cutover","source":"unpublished target","outcome":"defer","status":"pending","next_action":"publish only when requested"}
+    {
+      "capability": "application code and routes",
+      "source": "uploaded archive",
+      "outcome": "preserve",
+      "status": "ready",
+      "next_action": "copy and verify"
+    },
+    {
+      "capability": "visual design and content",
+      "source": "uploaded archive",
+      "outcome": "preserve exactly",
+      "status": "ready",
+      "next_action": "copy and compare"
+    },
+    {
+      "capability": "bundled images, fonts, and public files",
+      "source": "uploaded archive",
+      "outcome": "preserve",
+      "status": "ready",
+      "next_action": "copy and verify loading"
+    },
+    {
+      "capability": "browser-saved admin settings",
+      "source": "localStorage/sessionStorage",
+      "outcome": "preserve",
+      "status": "ready",
+      "next_action": "verify original behavior"
+    },
+    {
+      "capability": "database records",
+      "source": "none detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "external authentication",
+      "source": "none detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "external providers and secrets",
+      "source": "none detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "public endpoints, webhooks, and schedules",
+      "source": "none detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "verification",
+      "source": "local preview",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "production cutover",
+      "source": "unpublished target",
+      "outcome": "defer",
+      "status": "pending",
+      "next_action": "publish only when requested"
+    }
   ]
 }
